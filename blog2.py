@@ -25,10 +25,10 @@ class LoginForm(Form):
     password = PasswordField("Parola")
 app = Flask(__name__)
 app.secret_key = "ybblog"
-app.config["MYSQL_HOST"] = "sql7.freemysqlhosting.net" #başka sunucuda localde olmayan çalışsaydı onun adresi yazılmalı
-app.config["MYSQL_USER"] = "sql7301247"
-app.config["MYSQL_PASSWORD"] = "S9AjswFUch"
-app.config["MYSQL_DB"] = "sql7301247"
+app.config["MYSQL_HOST"] = "remotemysql.com" #başka sunucuda localde olmayan çalışsaydı onun adresi yazılmalı
+app.config["MYSQL_USER"] = "cZ4zHMzalt"
+app.config["MYSQL_PASSWORD"] = "MkHisCk3EJ"
+app.config["MYSQL_DB"] = "cZ4zHMzalt"
 app.config["MYSQL_CURSORCLASS"] = "DictCursor"
 
 
